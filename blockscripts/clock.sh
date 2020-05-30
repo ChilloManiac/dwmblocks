@@ -1,4 +1,3 @@
 #!/bin/sh
 
-date="$(LC_ALL=C date "+%a %d %b")"
-printf "%s\n" " $date"
+printf "^c#3ba0af^^d^ %s ^c#149101^^d^ %s\n" $(date +"%H:%M %d/%m/%y") 
