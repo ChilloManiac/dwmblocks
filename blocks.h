@@ -10,7 +10,7 @@ static const Block blocks[] = {
     {"", SCRIPT("mem.sh"),              60,     0}, EMPTYBLOCK,
     {"", SCRIPT("cpu.sh"),              10,     0}, EMPTYBLOCK,
     {"", SCRIPT("vol.sh"),              10,     0}, EMPTYBLOCK, // Should be 0 interval and update when used with script later
-    {"", SCRIPT("network.sh"),          60,     0}, EMPTYBLOCK,
+    {"", SCRIPT("network.sh"),          60,     1}, EMPTYBLOCK,
     {"", SCRIPT("battery.sh"),          180,    0}, EMPTYBLOCK,
     {"", SCRIPT("clock.sh"),            60,     0}, EMPTYBLOCK,
 };
