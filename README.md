@@ -1,5 +1,4 @@
 # TODO
-Wifi
+MEM
 Weather
-CPU
 Harddrive
