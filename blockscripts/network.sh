@@ -10,7 +10,3 @@ else
     printf "^c#5df23c^^d^ %s\n" "$wifi"
 fi
 
-notify-send "Hej"
-
-notify-send "123 $BUTTON"
-

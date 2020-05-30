@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-bat=$(acpi | awk '{print $4}' | rev | cut -b 3- | rev)
+bat=$(acpi | awk '{print $4}' | grep -oP "[0-9]*")
 
 if [ $bat -ge 90 ]; then 
     icon="^c#5df23c^^d^"

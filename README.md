@@ -1,3 +1,4 @@
 # TODO
 Weather
-volume with pamixer
+
+Volume mute on click
