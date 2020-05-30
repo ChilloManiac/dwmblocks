@@ -6,8 +6,9 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	        30,		0}, EMPTYBLOCK,
-    {"", SCRIPT("cpu.sh"),              10,      0}, EMPTYBLOCK,
+    {"", SCRIPT("drive.sh"),            3600,   0}, EMPTYBLOCK,
+    {"", SCRIPT("mem.sh"),              60,     0}, EMPTYBLOCK,
+    {"", SCRIPT("cpu.sh"),              10,     0}, EMPTYBLOCK,
     {"", SCRIPT("network.sh"),          60,     0}, EMPTYBLOCK,
     {"", SCRIPT("battery.sh"),          180,    0}, EMPTYBLOCK,
     {"", SCRIPT("clock.sh"),            60,     0}, EMPTYBLOCK,

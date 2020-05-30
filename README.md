@@ -1,4 +1,2 @@
 # TODO
-MEM
 Weather
-Harddrive
