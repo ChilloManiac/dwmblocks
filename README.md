@@ -1,5 +1,4 @@
 # TODO
-Battery
 Wifi
 Weather
 CPU
